@@ -1,0 +1,12 @@
+body p {
+    width: 700px;
+    height: auto;
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid;
+    background-color: violet;
+}
+
+section h1 {
+    background-color: yellowgreen;
+}

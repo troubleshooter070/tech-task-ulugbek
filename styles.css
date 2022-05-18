@@ -1,0 +1,19 @@
+/*Разграничил используюмую область*/
+section {
+    width: 600px;
+    color: red;
+    background-color: black;
+}
+/*Я люблю разнообразие стилей, поэтому отделил визуально листы*/
+ul {
+    background-color: rgb(127, 138, 255);
+    color: rgb(0, 255, 60);
+}
+
+/*Так же кнопки сделал более выделяющимися, так красивее */
+button {
+    border: 5px solid;
+    border-color: green;
+    background-color: #ff0;
+    width: 170px;
+}
