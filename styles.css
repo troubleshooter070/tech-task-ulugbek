@@ -1,8 +1,27 @@
+body {
+    background-image: url("images/agirl.png");
+    background-repeat: no-repeat;
+    background-color: bisque;     
+}
+
+header div {
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Разграничил используюмую область*/
 section {
+    border: 1px solid seashell;
     width: 600px;
     color: red;
     background-color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Я люблю разнообразие стилей, поэтому отделил визуально листы*/
 ul {

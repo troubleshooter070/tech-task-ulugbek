@@ -1,3 +1,4 @@
+/*На счет дизайна не стал заморачиваться, но по мне за 2 часа красиво вышло*/
 body p {
     width: 700px;
     height: auto;
@@ -8,5 +9,7 @@ body p {
 }
 
 section h1 {
+    width: 780px;
+    height: auto;
     background-color: yellowgreen;
 }
