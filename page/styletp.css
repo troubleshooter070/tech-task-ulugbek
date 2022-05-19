@@ -1,3 +1,9 @@
+body {
+    background-image: url("../images/citycloud.jpg");
+    background-size: cover;
+    margin: auto;
+    
+}
 /*На счет дизайна не стал заморачиваться, но по мне за 2 часа красиво вышло*/
 body p {
     width: 700px;
@@ -12,4 +18,22 @@ section h1 {
     width: 780px;
     height: auto;
     background-color: yellowgreen;
+}
+
+#Back {
+    border: 2px solid;
+    border-color: green;
+    background-color: #ff0;
+}
+
+#Chat {
+    border: 2px solid yellow;
+    margin: auto;
+    background-image: url("../images/light.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 400px;
+    color: antiquewhite;
+    text-align: end;
+
 }
