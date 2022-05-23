@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Tech-task</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="slider.js"></script>
     
 </head>
 
 <!--Я прописал функцию каждого элемента в самом хэдере или кнопке, всвязи с чем не стал комментировать далее--> 
 <body> 
     <header>
-        <a href="#default" class="logo"><img id="logo" src="images/logo.png" style="width: 50px; height: 50px;"></a>
-            <div class="header-center"><img id="hi" src="images/hi.jpeg" style="width: 250px; height: 50px;"></div>
+        <a href="#default" class="logo"><img id="logo" src="images/logo.png"></a>
+            <div class="header-center"><img id="hi" src="images/hi.jpeg"></div>
             <div class="header-right">
                 <a href="page/test-page.html" target="_blank">
                     <button>Chat me on new tab</button>
@@ -26,16 +27,24 @@
     </header>
     
     <section>
-        <article>
-            <p>
-            <br> 
+        <div class="artic">
+            <div class="slider">
+                <ol class="items-list">
+                    <li class="item" id="first"></li>
+                    <li class="item" id="second"></li>
+                    <li class="item" id="third"></li>
+                    <li class="item" id="fourth"></li>
+                    <li class="item" id="fifth"></li>
+                    <li class="item" id="six"></li>
+                    <li class="item" id="seventh"></li>
+                </ol>
+            </div>
+          <!--  <br> 
             Here is my first site, which I made as a tech task
             <br><hr>
-            My mistake was that I take impossible deadlines, 
-            so I write this site on my nees
-            </p></article>
+            Look through and relax. Have a nice treep within my site. -->
+        </div>
 
-    
             <ul>
                 <li> I've learned lists </li>
                 <ol><li>like order lists</li></ol>

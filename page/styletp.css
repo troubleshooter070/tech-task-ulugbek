@@ -37,8 +37,8 @@ body a {
     margin: auto;
     background-image: url("../images/light.jpg");
     background-size: cover;
-    height: 200px;
-    width: 400px;
+    height: 100px;
+    width: 200px;
     color: antiquewhite;
     text-align: end;
     cursor: pointer;
