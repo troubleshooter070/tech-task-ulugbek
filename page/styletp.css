@@ -1,8 +1,15 @@
 body {
     background-image: url("../images/citycloud.jpg");
     background-size: cover;
+    background-attachment: fixed;
     margin: auto;
+    padding-left: 30px;
     
+}
+
+#logo {
+    width: 50px;
+    height: auto;
 }
 /*На счет дизайна не стал заморачиваться, но по мне за 2 часа красиво вышло*/
 body p {
@@ -15,15 +22,14 @@ body p {
 }
 
 section h1 {
+    padding-left: 30px;
     width: 780px;
     height: auto;
     background-color: yellowgreen;
 }
 
-#Back {
-    border: 2px solid;
-    border-color: green;
-    background-color: #ff0;
+body a {
+    cursor: pointer;
 }
 
 #Chat {
@@ -35,5 +41,6 @@ section h1 {
     width: 400px;
     color: antiquewhite;
     text-align: end;
+    cursor: pointer;
 
 }

@@ -1,21 +1,65 @@
-body {
-    background-image: url("images/agirl.png");
-    background-repeat: no-repeat;
-    background-color: bisque;     
+
+
+header {
+    display: block;
+    width: 100% !important;
+    overflow: hidden;
+    background-color: #c0c6c8;
+    position: fixed;
+    top: 0%;
 }
 
-header div {
-    margin: auto;
-}
-
-img {
+header a {
+    top: 5%;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+#logo {
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  
 }
+
+#hi {
+    display: block;
+    
+}
+
+  .header-right {
+      top: 5%;
+      float: right;
+  }
+
+  
+
+  .header-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url("images/agirl.png");
+    background-position-y: 60px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: bisque;
+    cursor: auto;
+}
+
 
 /*Разграничил используюмую область*/
 section {
+    top: 60px;
     border: 1px solid seashell;
     width: 600px;
     color: red;
@@ -35,4 +79,6 @@ button {
     border-color: green;
     background-color: #ff0;
     width: 170px;
+    height: 45px;
+    cursor: pointer;
 }
